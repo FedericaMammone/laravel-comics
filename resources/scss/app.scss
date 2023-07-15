@@ -1,1 +1,83 @@
 @import '~bootstrap/scss/bootstrap';
+
+.container-head {
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+            padding: 5px;
+        }
+    }
+}
+
+
+.container-foot {
+    padding: 5px;
+    display: flex;
+    background-color: grey;
+    height: 400px;
+
+    .container-list {
+        span {
+
+            margin-left: 30px;
+        }
+
+        ul {
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+}
+
+.container-social {
+    height: 100px;
+
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        padding: 10px;
+        border: 2px solid blue;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 20px;
+        justify-content: center;
+
+        .card {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 0;
+        }
+    }
+}
